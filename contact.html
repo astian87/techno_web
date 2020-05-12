@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>El Cuchillo - Contact</title>
+    </head>
+    <body>
+
+        <header></header>
+
+        <div class="titro">
+        <h1>El Cuchillo - Contact</h1>
+        <p class="logoaccueil">
+        <img src="images/logo_mini.png" alt="Logo El Cuchillo" /></p>
+            
+            <nav>
+                <center>
+                        <div class="boutons">
+                        <ul>
+                            <li><a href="accueil.html">Accueil</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="avis.html">Avis</a></li>
+                            <li><a href="galerie.html">Galerie</a></li>
+                        </ul>
+                        </div>
+                </center>
+            </nav>
+
+            <br/>
+            <br/>
+
+        <form name="reservation">
+
+            <fieldset>
+                <legend>Faites votre réservation!</legend>
+
+                    <p>
+                        <label for="nbheure">À quelle heure?</label>
+                        <input type="time" min="18:00" max="21:00" id="nbheure" name="nbheure" value="18:00" required/>
+                    </p>
+
+                    <p>
+                        <label for="nbdate">À quelle date?</label>
+                        <input type="date" id="nbdate" min="2019-10-20"  name="nbdate" autofocus required/>
+                    <p>
+                        <label for="nbpersonnes">Nombre de personnes?</label>
+                        <input type="number" min="1" max="15" id="nbpersonnes" name="nbpersonnes" value="1" required/>
+                    </p>
+
+                    <center>
+                    <input type="button" value="Envoyer" onclick="validationfinal()"/>
+                    <br/>
+                    <br/>
+                    <input type="button" value="Calculez le coût" onclick="moyennefin()"/>
+                    </center>
+
+            </fieldset>
+
+            <p id="validationreservation"></p>
+            <p id="calculicout"></p>
+        
+        </form>
+
+        <br/>
+
+        <ul class="contact">
+            <li><strong>Téléphone</strong>: 02/675.13.26</li>
+            <li><strong>Whatsapp</strong>: 0476/92.53.01</li>
+            <p class="okidoki">Désormais, pour plus de facilités, vous pouvez réserver votre table en nous envoyant un Whatsapp!</p>    
+            <li><strong>Mail</strong>: Elcuchillobya28@gmail.com (<a href="mailto:mailto:elcuchillobya28@gmail.com">nous contacter</a>)</li>
+            <li><strong>Adresse</strong>: Chemin du Ruisselet 1 MA, 1380 Lasne</li>
+            <li><strong>Horaire</strong>: Du mardi au samedi de 18:00 à 22:30</li>
+        </ul>
+
+    </br>
+
+    <center>
+    <p class="googlemap">Trouvez nous grâce à <a href="https://www.google.com/maps/dir//el+cuchillo+lasne/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47c3d77671626d05:0xe0ab4ef74a80a340?sa=X&ved=2ahUKEwir7sLMyIzlAhWFKFAKHQwXAEkQ9RcwFXoECA4QEA" target="_blank">Google Maps</a>!</p>
+    </center>
+
+    </br>
+
+    <center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d40426.43209192004!2d4.448139344723942!3d50.707842004873925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d50.7286412!2d4.4772723999999995!4m5!1s0x47c3d77671626d05%3A0xe0ab4ef74a80a340!2sel%20cuchillo!3m2!1d50.685415299999995!2d4.4828527!5e0!3m2!1sfr!2sbe!4v1570619333832!5m2!1sfr!2sbe" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </center>
+
+    </br>
+
+    </br>
+    </br>
+
+    <footer>
+
+        <a href="https://www.facebook.com/ElCuchilloLasne/" target="_blank">
+        <img src="images/facebook_mini.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/elcuchillolasne/" target="_blank">
+        <img src="images/instagram_mini.png" alt="Instagram"></a>
+        <p class="logopied"><img src="images/logo_pied.png" alt="Logo El Cuchillo"/></p>
+
+    </footer>
+
+        <script src="formulaire.js">
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('fonts/SinkinSans-400Regular-webfont.eot');
+    src: url('fonts/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SinkinSans-400Regular-webfont.woff2') format('woff2'),
+         url('fonts/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('fonts/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('fonts/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+    background-color: rgb(110,99,93);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+
+*
+{
+    color: white;
+    font-family: 'sinkin_sans400_regular', Arial, sans-serif;
+}
+
+header
+{
+    background-image: url(images/wallpaper.png);
+    height: 350px;
+    width: 1260px;
+    opacity: 1;
+    align-items: center;
+    margin-top: -80px;
+}
+
+/* Accueil*/
+
+.logoaccueil
+{
+    opacity: 0.7;
+}
+
+.text2accueil
+    {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+.rectangleaccueil1
+    {
+        width: 1260px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-top: -100px;
+        border-bottom: 3px solid rgb(170, 170, 170);
+        border-top: 3px solid rgb(170, 170, 170);
+    }
+
+
+.rectangleaccueil2    
+    {
+        width: 1260px;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: -80px;
+        border-bottom: 3px solid rgb(170, 170, 170);
+    }
+
+.rectangleaccueil3
+    {
+        width: 1260px;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: -70px;
+    }
+
+.rectangleaccueil4
+    {
+        width: 1260px;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: -70px;
+    }
+
+.titro
+{
+    margin-top: -250px;
+}
+
+.logoaccueil
+{
+    margin-top: -40px;
+}
+
+/* Barre de navigation */
+
+nav
+{
+    margin-top: -20px;
+    margin-right: 50px;
+}
+
+.boutons ul
+{
+    display: inline-flex;
+    margin: 30px;
+    margin-top: -60px;
+}
+
+.boutons ul li
+{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+
+.boutons ul li a:hover
+{
+    color: rgb(170, 170, 170);
+}
+
+
+.boutons a:link
+{
+    text-decoration: none;
+}
+
+#blocaccueil1, #blocaccueil2, #blocaccueil3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Divers - crosspages */
+
+h4, .avis, .okidoki, .googlemaps, .drinks, .downloadmenu, .text2accueil, .textaccueil, ul, h1, h2, .logoaccueil, .imageaccueil1, .imageaccueil2, .imageaccueil3, .logopied, .description1, .description2, .description3, .photomenu 
+{
+    text-align: center
+}
+
+.descriptionmenu, .whatsapp, .avis1, .avis2, .avis3, .avis4, .ambiance, .contenu, .simon
+{
+    text-align: justify
+}
+
+
+/* Tableau du menu */
+
+
+td, th
+{
+    border: 2px solid rgb(170, 170, 170)
+}
+
+table
+{
+    border-collapse: collapse
+}
+
+ul
+{
+    list-style-position: inside
+}
+
+
+
+article
+{
+    width: 800px;
+    border: 2px solid rgb(170, 170, 170);
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    padding: 12px;
+
+    margin: auto;
+}
+
+/* Menu */
+
+.description1, .description2, .description3
+{
+    width: 355px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+
+    margin: auto;
+}
+
+.descriptionmenu
+{
+    width: 990px;
+    border: 0px solid white;
+    text-align: justify;
+    padding: 18px;
+
+    margin:auto;
+}
+
+.drinkslist
+{
+    width: 610px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(170, 170, 170);
+    text-align: center;
+    padding: 12px;
+
+    margin: auto
+}
+
+.menutext
+    {
+        width: 1260px;
+        height: 130px;
+        border-top: 3px solid rgb(170, 170, 170);
+        border-bottom: 3px solid rgb(170, 170, 170);
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: -110px;
+    }
+
+/* Contact */
+
+#validationreservation, #calculicout
+{
+    text-align: center;
+}
+
+.contact
+{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(170, 170, 170);
+    text-align: center;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+
+    margin: auto;
+}
+
+.contact
+{
+    list-style-type: none;
+}
+
+/* Formulaire */ 
+
+
+   fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:2px solid rgb(170, 170, 170);
+    width: 760px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    }
+   legend {
+    color:rgb(255, 255, 255);
+    font-weight:bold
+    }
+   label {
+    margin-top:10px;
+    display:block;
+    }
+    input {
+    background-color:rgb(0, 0, 0);
+    opacity: 0.4;
+    }
+   input {
+    padding:3px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:5px;
+    width:300px;
+    box-shadow:1px 1px 2px rgb(255, 255, 255) inset;
+    }
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+    object-position: center;
+    box-shadow:1px 1px 1px rgb(255, 255, 255);
+    cursor:pointer;
+    }
+
+/* Avis */
+
+.siteavis, .avis
+{
+    margin-top: 10px;
+}
+
+.tripadvisor, .google, .facebook
+{
+    width: 50px;
+    height: 50px;
+}
+
+.siteavis
+    {
+        width: 1260px;
+        height: 50px;
+        border-top: 3px solid rgb(170, 170, 170);
+        border-bottom: 3px solid rgb(170, 170, 170);
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: -56px;
+    }
+
+/* Galerie */
+
+.ambiance
+    { 
+     text-align: center;
+    }
+
+
+.ambiance, .galeriephoto
+{
+    margin-top: 12px;
+}
+
+
+
+strong
+{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.recrut
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.recrutement
+{
+    width: 1140px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(170, 170, 170);
+    text-align: justify;
+    padding: 2px;
+
+    margin: auto;
+}
+
+tr
+{
+    background-color: black;
+    opacity: 0.6;
+}
+
+.galeriephoto
+    {
+        width: 1260px;
+        height: 50px;
+        border-top: 3px solid rgb(170, 170, 170);
+        border-bottom: 3px solid rgb(170, 170, 170);
+        background-color: rgba(0, 0, 0, 0.2);
+        margin-top: -59px;
+    }
+
+footer
+{
+    text-align: center;
+}
+
+.logopied
+{
+    opacity: 0.5
+}
+
+
